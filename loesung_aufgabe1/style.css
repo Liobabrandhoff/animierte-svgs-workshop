@@ -1,0 +1,26 @@
+/* ====================================
+             CSS Transitions
+==================================== */
+#icon-transition #stundenzeiger {
+    transition: fill 1s;
+}
+
+#icon-transition #stundenzeiger:hover {
+    fill: red;
+}
+
+#icon-transition #minutenzeiger {
+    transition: fill 1s;
+}
+
+#icon-transition #minutenzeiger:hover {
+    fill: orange;
+}
+
+#icon-transition #sekundenzeiger {
+    transition: fill 1s;
+}
+
+#icon-transition #sekundenzeiger:hover {
+    fill: purple;
+}

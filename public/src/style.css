@@ -1,0 +1,49 @@
+h1 {
+    color: blue;
+    font-size: 68px;
+}
+
+/* ====================================
+             CSS Transitions
+==================================== */
+#icon-transition #stundenzeiger {
+    transition: fill 1s;
+}
+
+#icon-transition #stundenzeiger:hover {
+    fill: red;
+}
+
+#icon-transition #minutenzeiger {
+    transition: fill 1s;
+}
+
+#icon-transition #minutenzeiger:hover {
+    fill: orange;
+}
+
+#icon-transition #sekundenzeiger {
+    transition: fill 1s;
+}
+
+#icon-transition #sekundenzeiger:hover {
+    fill: purple;
+}
+
+
+/* ====================================
+             CSS Keyframes
+==================================== */
+#icon-keyframes #sekundenzeiger {
+    animation: rotate 10s normal linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0) ;
+
+    }
+    100% {
+        transform: rotate(360deg) ;
+    }
+}
